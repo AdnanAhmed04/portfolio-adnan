@@ -111,63 +111,73 @@
     </section>
 
     <!-- ---------------------section 2------------------------------------------------- -->
-    <section id="section2" class="mt-8   lg:h-[10vh]  ">
+    <section id="section2" class="py-4 lg:h-[600px] ">
         <div class="flex justify-center items-center">
-            <div class="mr-4 mb-4 " 3><svg xmlns="http://www.w3.org/2000/svg" height="1.9rem" viewBox="0 0 448 512">
-                    <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <div class="mr-4 mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1.9rem" viewBox="0 0 448 512">
                     <path
                         d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3"
                         fill="#000000" />
                 </svg>
-
             </div>
-            <div class="flex justify-center mb-4 ">
+            <div class="flex justify-center mb-4">
                 <h1 class="text-3xl lg:text-5xl font-mono lg:font-medium">About Me</h1>
             </div>
         </div>
 
-        <div class=" sm:flex-row sm:justify-center items-center mt-4">
-            <div class=" sm:mr-4 lg:flex  sm:text-left ">
-                <div class="lg:w-1/3 " data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <div class="sm:flex-row sm:justify-center items-center ">
+            <div class="sm:mr-4 lg:flex sm:text-left">
+                <div class="lg:w-1/3" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                     <div class="lg:h-full flex items-center justify-center">
                         <img src="./images/a.png" alt="Description of the image"
-                            class="sm:h-64 sm:w-64 lg:w-auto lg:h-[440px] md:w-2/3   rounded-full ">
+                            class="sm:h-40 sm:w-40 md:h-40 md:w-48 lg:w-auto lg:h-[400px] md:w-3/5 rounded-full">
                     </div>
+
                 </div>
-                <div class=" lg:w-2/3">
-                    <p class="sm:text-xs lg:text-2xl font-mono  sm:w-64  mt-4 lg:w-full lg:text-2xl">
-                        I'm Adnan, a dedicated web developer based in Karachi, Pakistan. I am an undergraduate student
-                        with a profound
-                        passion for honing my coding abilities and crafting exceptional applications and websites. My
-                        expertise lies in
-                        web development, and I'm particularly enthusiastic about transitioning into a full-stack
-                        developer role. Currently,
-                        I specialize in frontend technologies, creating seamless and visually appealing user interfaces.
-                        However, I am on
-                        an exciting journey to expand my skills and delve into the realm of full-stack development. I
-                        find immense satisfaction
-                        in building innovative web solutions and am adept at utilizing various frontend frameworks and
-                        libraries. Eager to
-                        embrace backend technologies, I am committed to enhancing my knowledge and expertise, with the
-                        ultimate goal of becoming
-                        a proficient full-stack developer. My enthusiasm for coding and my determination to excel drive
-                        me to explore diverse
-                        technologies, ensuring that I stay at the forefront of the ever-evolving web development
-                        landscape.
-                    </p>
-                    <button class="rounded-full px-4 py-2 mt-4 text-lg text-white bg-blue-800 ">
-                        <a href="Adnan cv.pdf">Resume</a>
-                    </button>
+                <div class="lg:w-2/3">
+                    <div class="">
+                        <p class="text-xl font-mono">I'm Adnan, a dedicated web developer based in Karachi, Pakistan. I
+                            am
+                            an
+                            undergraduate student
+                            with a profound passion for honing my coding abilities and crafting exceptional applications
+                            and
+                            websites. My expertise lies in web development, and I'm particularly enthusiastic about
+                            transitioning into a full-stack developer role. Currently, I specialize in frontend
+                            technologies,
+                            creating seamless and visually appealing user interfaces.<span id="dots">...</span><span
+                                id="more" style="display: none;">However, I am on an exciting journey to expand my
+                                skills
+                                and
+                                delve into the realm of full-stack development. I find immense satisfaction in building
+                                innovative web solutions and am adept at utilizing various frontend frameworks and
+                                libraries.
+                                Eager to embrace backend technologies, I am committed to enhancing my knowledge and
+                                expertise,
+                                with the ultimate goal of becoming a proficient full-stack developer. My enthusiasm for
+                                coding
+                                and my determination to excel drive me to explore diverse technologies, ensuring that I
+                                stay
+                                at
+                                the forefront of the ever-evolving web development landscape.</span></p>
+                        <button onclick="myFunction()" id="myBtn"
+                            class=" hover:text-blue-700 text-blue-500 font-bold py-2 px-4 rounded-full">
+                            <span id="toggleBtnText">Read more</span>
+                        </button>
+                    </div>
+                    <div>
+                        <button class="rounded-full px-4 py-2 mt-4 text-md text-white bg-blue-500 hover:bg-blue-700">
+                            <a href="Adnan cv.pdf">Resume</a>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
-
-
     </section>
 
 
     <!-- -----------------------------section 3--------------------------------------- -->
-    <section class=" mt-8 lg:mt-[700px]  bg-blue-900  " id="section3">
+    <section class="   bg-blue-900  " id="section3">
 
         <div class="  ">
             <div class="flex justify-center items-center">
@@ -388,11 +398,25 @@
             </div>
         </div>
         <div class="flex justify-center ">
-            <div class="box flex flex-wrap     w-[100vw] lg:w-[80vw] m-4">
+            <div class="box flex flex-wrap  w-[100vw] lg:w-[80vw] m-4">
 
                 <div class="card">
                     <div class="imgBx">
-                        <img src="./images/pakwheel.png" alt="images">
+                        <img src="./images/rubicon.png" alt="images" class="img-fluid"
+                            style="max-width: 100%; max-height: 100% ">
+                    </div>
+
+                    <div class="details">
+                        <h2 class="text-black text-xs">RUBICON Clone</h2>
+                        <h2 class="text-red-500 text-xs">Using TailwindCSS and ReactVite</h2>
+                        <span class="text-blue-800 text-xs">Get
+                            Code</span></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="./images/pakwheel.png" alt="images" class="img-fluid"
+                            style="max-width: 100%; max-height: 100% ">
                     </div>
                     <div class="details">
                         <h2 class="text-black text-xs">PakWheel Clone</h2>
@@ -403,7 +427,21 @@
                 </div>
                 <div class="card">
                     <div class="imgBx">
-                        <img src="./images/olx.png" alt="images">
+                        <img src="./images/shoping.png" alt="images" class="img-fluid"
+                            style="max-width: 100%; max-height: 100% ">
+                    </div>
+
+                    <div class="details">
+                        <h2 class="text-black text-xs">Shopping Cart</h2>
+                        <h2 class="text-red-500 text-xs">Using TailwindCSS and ReactVite</h2>
+                        <span class="text-blue-800 text-xs">Get
+                            Code</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="./images/olx.png" alt="images" class="img-fluid"
+                            style="max-width: 100%; max-height: 100% ">
                     </div>
                     <div class="details">
                         <h2 class="text-black text-xs">Olx Clone</h2>
@@ -414,7 +452,8 @@
                 </div>
                 <div class="card">
                     <div class="imgBx">
-                        <img src="./images/to-do.png" alt="images">
+                        <img src="./images/to-do.png" alt="images" class="img-fluid"
+                            style="max-width: 100%; max-height: 100% ">
                     </div>
                     <div class="details">
                         <h2 class="text-black text-xs">To do App</h2>
@@ -425,7 +464,8 @@
                 </div>
                 <div class="card">
                     <div class="imgBx">
-                        <img src="./images/digital.png" alt="images">
+                        <img src="./images/digital.png" alt="images" class="img-fluid"
+                            style="max-width: 100%; max-height: 100% ">
                     </div>
                     <div class="details">
                         <h2 class="text-black text-xs">Digital Clock</h2>
@@ -436,7 +476,8 @@
                 </div>
                 <div class="card">
                     <div class="imgBx">
-                        <img src="./images/apple.png" alt="images">
+                        <img src="./images/apple.png" alt="images" class="img-fluid"
+                            style="max-width: 100%; max-height: 100% ">
                     </div>
                     <div class="details">
                         <h2 class="text-black">Apple Clone</h2>
@@ -446,7 +487,8 @@
                 </div>
                 <div class="card">
                     <div class="imgBx">
-                        <img src="./images/clock.png" alt="images">
+                        <img src="./images/clock.png" alt="images" class="img-fluid"
+                            style="max-width: 100%; max-height: 100% ">
                     </div>
                     <div class="details">
                         <h2 class="text-black text-xs">Analog Clock</h2>
@@ -458,7 +500,8 @@
                 </div>
                 <div class="card">
                     <div class="imgBx">
-                        <img src="./images/tictac.png" alt="images">
+                        <img src="./images/tictac.png" alt="images" class="img-fluid"
+                            style="max-width: 100%; max-height: 100% ">
                     </div>
                     <div class="details">
                         <h2 class="text-black">Tic Tac Toe</h2>
@@ -468,7 +511,8 @@
                 </div>
                 <div class="card">
                     <div class="imgBx">
-                        <img src="./images/memory .png" alt="images">
+                        <img src="./images/memory .png" alt="images" class="img-fluid"
+                            style="max-width: 100%; max-height: 100% ">
                     </div>
                     <div class="details">
                         <h2 class="text-black">Memoery Game</h2>
@@ -478,7 +522,8 @@
                 </div>
                 <div class="card">
                     <div class="imgBx">
-                        <img class="" src="./images/calculator.png" alt="images">
+                        <img class="" src="./images/calculator.png" alt="images" class="img-fluid"
+                            style="max-width: 100%; max-height: 100% ">
                     </div>
                     <div class="details">
                         <h2 class="text-black text-xs">Calulator</h2>
@@ -490,7 +535,8 @@
                 </div>
                 <div class="card">
                     <div class="imgBx">
-                        <img src="./images/zakat.png" alt="images">
+                        <img src="./images/zakat.png" alt="images" class="img-fluid"
+                            style="max-width: 100%; max-height: 100% ">
                     </div>
                     <div class="details">
                         <h2 class="text-black text-xs">Zakat Calculator</h2>
@@ -502,7 +548,8 @@
                 </div>
                 <div class="card">
                     <div class="imgBx">
-                        <img src="./images/linkedinn.png" alt="images">
+                        <img src="./images/linkedinn.png" alt="images" class="img-fluid"
+                            style="max-width: 100%; max-height: 100% ">
                     </div>
                     <div class="details">
                         <h2 class="text-black">LinkedIn Clone</h2>
@@ -512,7 +559,8 @@
                 </div>
                 <div class="card">
                     <div class="imgBx">
-                        <img src="./images/insta.png" alt="images">
+                        <img src="./images/insta.png" alt="images" class="img-fluid"
+                            style="max-width: 100%; max-height: 100% ">
                     </div>
                     <div class="details">
                         <h2 class="text-black text-xs">Instagram Clone</h2>
@@ -523,7 +571,8 @@
                 </div>
                 <div class="card">
                     <div class="imgBx">
-                        <img src="./images/netflix.png" alt="images">
+                        <img src="./images/netflix.png" alt="images" class="img-fluid"
+                            style="max-width: 100%; max-height: 100% ">
                     </div>
                     <div class="details">
                         <h2 class="text-black">Netflix</h2>
